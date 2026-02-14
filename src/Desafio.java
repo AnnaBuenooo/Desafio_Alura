@@ -32,7 +32,7 @@ public class Desafio {
             } else if (opcao == 2) {
                 System.out.println("Qual o valor que deseja transferir?");
                 double valor = leitura.nextDouble();
-                if (valor > saldo){
+                if (valor > saldo)
                     System.out.println("Não há saldo para realizar a transferência.");
                 } else {
                     saldo -= valor;
